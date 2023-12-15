@@ -1,0 +1,22 @@
+// RESET CSS
+* {
+    box-sizing: border-box;
+
+    margin: 0;
+    padding: 0;
+
+
+    // RESET CSS FOR ::BEFORE & ::AFTER
+    &::before, &::after {content: '';}
+
+
+    // RESET CSS FOR IMG TAG
+    img {width: 100%; height: 100%; object-fit: cover;}
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Victor+Mono:wght@200&display=swap');
+
+
+@import 'scss/_var.scss';
+@import 'scss/_mixin.scss';
